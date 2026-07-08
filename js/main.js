@@ -303,3 +303,24 @@ if(footer){
 
 
 }
+
+// SOCIAL MEDIA TOGGLE
+
+const socialToggle =
+document.querySelector(".social-toggle");
+
+
+const socialContainer =
+document.querySelector(".social-container");
+
+
+
+if(socialToggle){
+
+    socialToggle.addEventListener("click",()=>{
+
+        socialContainer.classList.toggle("active");
+
+    });
+
+}
